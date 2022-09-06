@@ -9,10 +9,6 @@ Code for the COLING2022 paper "Word Sense Disambiguation with Knowledge-Enhanced
 - transformers==2.8.0
 - OpenHowNet==0.0.1a8
 Make sure you have run the following codes to complete the installation of `OpenHowNet` before running any codes in this repo.
-```python
-import OpenHowNet
-OpenHowNet.download()
-```
 
 ## Data Preparation
 You can download the dataset [here](http://lcl.uniroma1.it/wsdeval/home) and put it in the data folder.
