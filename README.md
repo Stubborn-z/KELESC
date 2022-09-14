@@ -15,7 +15,7 @@ You can download the dataset [here](http://lcl.uniroma1.it/wsdeval/home) and put
 ## Run the WSD Model on the Dataset
 We recommend use cuda to accelerate the inference. Make sure you have generated the necessary files and put the dataset file in the `data/` directory.
 ```shell
-
+l;kl
 ```
 The command will test the model on the whole dataset and generate a log file for further evaluation.
 ## Evaluation
