@@ -27,8 +27,8 @@ After you get the log file, you can evaluate it with the following command on va
 Please cite our paper if you find it helpful.
 ```
 @inproceedings{,
-    title = "Word {S}ense {D}isambiguation with {K}nowledge-{E}nhanced and {L}ocal {S}elf-{A}ttention-based {E}xtractive {S}ense {C}omprehension",
-    author = "",
+    title = "Word Sense Disambiguation with Knowledge-Enhanced and Local Self-Attention-based Extractive Sense Comprehension",
+    author = "Guobiao Zhang, Wenpeng Lu1, Xueping Peng, Shoujin Wang, Baoshuo Kan, Rui Yu",
     booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
     year = "2022",
 }
