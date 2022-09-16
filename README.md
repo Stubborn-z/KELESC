@@ -26,10 +26,11 @@ python esc/train.py
 ```
 The command will test the model on the whole dataset and generate a log file for further evaluation.
 ## Evaluation
-If you want to evaluate the model on a dataset, just run the following command:
+If you want to evaluate the model on a dataset, just run the following command in the KELESC folder:
 ```shell
-
+python esc/predict.py --ckpt <kelesc_checkpoint.ckpt> --dataset-paths data/WSD_Evaluation_Framework/Evaluation_Datasets/semeval2007/semeval2007.data.xml 
 ```
+The predictions will be saved in the folder ```predictions``` with the name <dataset_name>_predictions.txt.
 ## Citation
 Please cite our paper if you find it helpful.
 ```
