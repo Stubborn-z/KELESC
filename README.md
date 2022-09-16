@@ -4,6 +4,7 @@ Code for the COLING2022 paper "Word Sense Disambiguation with Knowledge-Enhanced
 [[Paper]]()
 
 ## Environment
+- black=21.5b2
 - nlp=0.4.0
 - nltk=3.4.5
 - numpy=1.21.2
