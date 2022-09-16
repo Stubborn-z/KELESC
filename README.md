@@ -18,7 +18,7 @@ Code for the COLING2022 paper "Word Sense Disambiguation with Knowledge-Enhanced
 
 
 ## Data Preparation
-We follow the unified evaluation framework (raganato framework) for WSD. You can download the dataset [here](http://lcl.uniroma1.it/wsdeval/home) and put it in the data folder.
+We follow the unified evaluation framework (raganato framework) for WSD. You can download the dataset [here](http://lcl.uniroma1.it/wsdeval/home) and unpack it in the data folder.
 ## Train the WSD Model on the Dataset
 If you want to train your own model you just have to run the following command in the KELESC folder:
 ```shell
