@@ -22,12 +22,12 @@ We follow the unified evaluation framework (raganato framework) for WSD. You can
 ## Train the WSD Model on the Dataset
 If you want to train your own model you just have to run the following command in the KELESC folder:
 ```shell
-python esc/train.py
+python model/train.py
 ```
 ## Evaluation
 If you want to evaluate the model on a dataset, just run the following command in the KELESC folder:
 ```shell
-python esc/predict.py --ckpt <kelesc_checkpoint.ckpt> --dataset-paths data/WSD_Evaluation_Framework/Evaluation_Datasets/semeval2007/semeval2007.data.xml 
+python model/predict.py --ckpt <kelesc_checkpoint.ckpt> --dataset-paths data/WSD_Evaluation_Framework/Evaluation_Datasets/semeval2007/semeval2007.data.xml 
 ```
 The ```--dataset-paths``` can be modified. For example, change  ```/semeval2007/semeval2007.data.xml``` to ```/semeval2013/semeval2013.data.xml```. The predictions will be saved in the folder ```predictions``` with the name ```<dataset_name>_predictions.txt```.
 ## Citation
