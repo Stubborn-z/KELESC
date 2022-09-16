@@ -26,7 +26,7 @@ python esc/train.py
 ```
 The command will test the model on the whole dataset and generate a log file for further evaluation.
 ## Evaluation
-After you get the log file, you can evaluate it with the following command on various metrics. 
+If you want to evaluate the model on a dataset, just run the following command:
 ```shell
 
 ```
