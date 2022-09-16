@@ -19,10 +19,10 @@ Code for the COLING2022 paper "Word Sense Disambiguation with Knowledge-Enhanced
 
 ## Data Preparation
 You can download the dataset [raganato framework](http://lcl.uniroma1.it/wsdeval/home) and put it in the data folder.
-## Run the WSD Model on the Dataset
+## Train the WSD Model on the Dataset
 We recommend use cuda to accelerate the inference. Make sure you have generated the necessary files and put the dataset file in the `data/` directory.
 ```shell
-
+python esc/train.py
 ```
 The command will test the model on the whole dataset and generate a log file for further evaluation.
 ## Evaluation
