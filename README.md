@@ -4,10 +4,16 @@ Code for the COLING2022 paper "Word Sense Disambiguation with Knowledge-Enhanced
 [[Paper]]()
 
 ## Environment
-- 
-- 
-- 
-- 
+- nlp=0.4.0
+- nltk=3.4.5
+- numpy=1.21.2
+- pandas=1.3.5
+- python=3.7.12
+- pytorch=1.8.0
+- pytorch-lightning=0.9.0
+- tqdm=4.64.0
+- transformers=3.2.0
+- wandb=0.12.12
 
 
 ## Data Preparation
