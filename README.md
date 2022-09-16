@@ -24,7 +24,6 @@ If you want to train your own model you just have to run the following command i
 ```shell
 python esc/train.py
 ```
-The command will test the model on the whole dataset and generate a log file for further evaluation.
 ## Evaluation
 If you want to evaluate the model on a dataset, just run the following command in the KELESC folder:
 ```shell
