@@ -46,5 +46,5 @@ Please cite our paper if you find it helpful.
 }
 ```
 ## Acknowledgement
-Parts of the code are modified from [[ESC]](https://github.com/SapienzaNLP/esc). We appreciate the authors for making ESC open-sourced.
+Parts of the code are modified from [ESC](https://github.com/SapienzaNLP/esc). We appreciate the authors for making ESC open-sourced.
 
