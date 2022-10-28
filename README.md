@@ -1,7 +1,7 @@
 #  Word Sense Disambiguation with Knowledge-Enhanced and Local Self-Attention-based Extractive Sense Comprehension
 
 Code for the COLING2022 paper "Word Sense Disambiguation with Knowledge-Enhanced and Local Self-Attention-based Extractive Sense Comprehension"
-[Paper](https://aclanthology.org/2022.coling-1.357/)
+[[Paper]](https://aclanthology.org/2022.coling-1.357/)
 
 ## Environment
 - black=21.5b2
