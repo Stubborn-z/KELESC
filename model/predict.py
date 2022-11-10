@@ -100,7 +100,7 @@ def precision_recall_f1_accuracy_score(y_true: List[List[str]], y_pred: List[Opt
 
 
 def predict(
-    model: ESCModule, data_loader: DataLoader, device: int, prediction_type: str, evaluate: bool = False
+    model: KELESCModule, data_loader: DataLoader, device: int, prediction_type: str, evaluate: bool = False
 ) -> PredictionReport:
 
     instance_prediction_reports = []
@@ -315,7 +315,7 @@ def main() -> None:
     else:
         dataset_paths = args.dataset_paths
 
-    wsd_model = ESCModule.load_from_checkpoint(args.ckpt)
+    wsd_model = KELESCModule.load_from_checkpoint(args.ckpt)
     wsd_model.freeze()
 
     if args.device >= 0:
