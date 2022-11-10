@@ -8,10 +8,10 @@ import torch
 from torch.utils.data import IterableDataset
 from torch.distributions import poisson
 
-from esc.utils.definitions_tokenizer import DefinitionsTokenizer
-from esc.utils.commons import flatten, chunks, batch_data
-from esc.utils.wordnet import wn_offsets_from_lemmapos, synset_from_offset, wn_offset_from_sense_key
-from esc.utils.wsd import expand_raganato_path, read_from_raganato, pos_map, WSDInstance
+from model.utils.definitions_tokenizer import DefinitionsTokenizer
+from model.utils.commons import flatten, chunks, batch_data
+from model.utils.wordnet import wn_offsets_from_lemmapos, synset_from_offset, wn_offset_from_sense_key
+from model.utils.wsd import expand_raganato_path, read_from_raganato, pos_map, WSDInstance
 
 ROBERTA_TOKENIZER_MODELS = {"roberta", "bart", "longformer"}
 
