@@ -12,7 +12,7 @@ from model.utils.optimizers import RAdam
 SUPPORTED_MODELS = ["bart", "bert", "longformer", "roberta", "xlnet"]
 
 
-class ESCModule(pl.LightningModule):
+class KELESCModule(pl.LightningModule):
     def __init__(self, conf, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.hparams = conf
