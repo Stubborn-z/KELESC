@@ -54,10 +54,10 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def get_module(args: argparse.Namespace, tokenizer) -> ESCModule:
-    module = ESCModule(args)
+def get_module(args: argparse.Namespace, tokenizer) -> KELESCModule:
+    module = KELESCModule(args)
     if args.start_from_ckpt:
-        starting_module = ESCModule.load_from_checkpoint(args.start_from_ckpt)
+        starting_module = KELESCModule.load_from_checkpoint(args.start_from_ckpt)
         tmp_path = f'/tmp/{args.start_from_ckpt.split("/")[-1]}'
         torch.save(starting_module.state_dict(), tmp_path)
         module.load_state_dict(torch.load(tmp_path))
