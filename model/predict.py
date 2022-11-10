@@ -8,12 +8,12 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 
-from esc.utils.definitions_tokenizer import get_tokenizer
-from esc.utils.wordnet import synset_from_offset
-from esc.utils.wsd import WSDInstance
-from esc.esc_dataset import WordNetDataset
-from esc.esc_pl_module import ESCModule
-from esc.utils.commons import list_elems_in_dir
+from model.utils.definitions_tokenizer import get_tokenizer
+from model.utils.wordnet import synset_from_offset
+from model.utils.wsd import WSDInstance
+from model.dataset import WordNetDataset
+from model.pl_module import KELESCModule
+from model.utils.commons import list_elems_in_dir
 
 
 class InstancePredictionReport(NamedTuple):
