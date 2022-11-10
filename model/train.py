@@ -8,9 +8,9 @@ from torch.utils.data.dataloader import DataLoader
 
 import pytorch_lightning as pl
 
-from esc.utils.definitions_tokenizer import get_tokenizer
-from esc.esc_dataset import WordNetDataset, OxfordDictionaryDataset, DatasetAlternator
-from esc.esc_pl_module import ESCModule
+from model.utils.definitions_tokenizer import get_tokenizer
+from model.dataset import WordNetDataset, DatasetAlternator
+from model.pl_module import KELESCModule
 
 
 def parse_args() -> argparse.Namespace:
