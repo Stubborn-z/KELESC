@@ -17,6 +17,8 @@ and found that mine is
 Error occurs when searching query Taylor Hawkins musical influences: 'url' 
 Error occurs when searching query Taylor Hawkins musical background: 'url'
 Error occurs when searching query Music inspirations of Taylor Hawkins: 'url'
+...
+...
 ```  
 Can you help me check it?
 
