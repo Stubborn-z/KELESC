@@ -8,9 +8,12 @@ The error is
 ```shell
 ValueError: Expected 2D array, got 1D array instead: array=[]. Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample. 
 ```
-Then I checked what you said a bunch of  ```shell 
+Then I checked what you said a bunch of  
+```shell 
 root : ERROR : Error occurs when searching query xxx: 'hits'?
-```  and found that mine is  ```shell
+``` 
+and found that mine is 
+```shell
 Error occurs when searching query Taylor Hawkins musical influences: 'url' 
 Error occurs when searching query Taylor Hawkins musical background: 'url'
 Error occurs when searching query Music inspirations of Taylor Hawkins: 'url'
