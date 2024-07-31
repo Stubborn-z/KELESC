@@ -1,27 +1,5 @@
 #  Word Sense Disambiguation with Knowledge-Enhanced and Local Self-Attention-based Extractive Sense Comprehension
 
-Thank you very much for your contribution! I encountered the same problem as [#14 ](https://github.com/stanford-oval/storm/issues/14)when running the command
-```shell
--- python -m scripts.run_writing --input-source console --input-path ../FreshWiki/topic_list.csv --engine gpt-4 --do-polish-article --remove-duplicate. 
-```
-The error is
-```shell
-ValueError: Expected 2D array, got 1D array instead: array=[]. Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample. 
-```
-Then I checked what you said a bunch of  
-```shell 
-root : ERROR : Error occurs when searching query xxx: 'hits'?
-``` 
-and found that mine is 
-```shell
-Error occurs when searching query Taylor Hawkins musical influences: 'url' 
-Error occurs when searching query Taylor Hawkins musical background: 'url'
-Error occurs when searching query Music inspirations of Taylor Hawkins: 'url'
-...
-...
-```  
-Can you help me check it?
-
 Code for the COLING2022 paper "Word Sense Disambiguation with Knowledge-Enhanced and Local Self-Attention-based Extractive Sense Comprehension"
 [[Paper]](https://aclanthology.org/2022.coling-1.357/)
 
